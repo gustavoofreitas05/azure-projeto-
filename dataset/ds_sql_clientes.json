@@ -1,0 +1,31 @@
+{
+	"name": "ds_sql_clientes",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "nome",
+				"type": "varchar"
+			},
+			{
+				"name": "cidade",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "clientes"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

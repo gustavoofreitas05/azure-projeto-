@@ -1,0 +1,9 @@
+{
+	"name": "adf-redundancia-dados",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "47c7a6c0-12bd-42b7-8c7c-34601cb92d84",
+		"tenantId": "59d4f249-0520-46cf-b6b2-873d5da543fe"
+	}
+}

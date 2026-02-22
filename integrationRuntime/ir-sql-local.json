@@ -1,0 +1,6 @@
+{
+	"name": "ir-sql-local",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
